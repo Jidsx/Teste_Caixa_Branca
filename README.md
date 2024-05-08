@@ -31,5 +31,36 @@ Class.forName("com.mysql.jdbc.Driver").newInstance();
 ### Ausência de tratamento de exceções:
 Embora o código contenha blocos try-catch para lidar com exceções durante a conexão com o banco de dados e a execução da consulta SQL, os blocos estão vazios. Isso significa que as exceções são simplesmente ignoradas, o que pode levar a problemas não tratados e comportamento inesperado da aplicação.
 
-# Planilha de Teste
+## Planilha de Teste
 [Teste_Caixa_Branca.xlsx](https://github.com/Jidsx/Teste_Caixa_Branca/files/15243117/Teste_Caixa_Branca.xlsx)
+
+## Grafo de Fluxo
+![Grafo_fluxo](https://github.com/Jidsx/Teste_Caixa_Branca/assets/113401757/14ab9bdd-955d-49d0-8294-9c1344e49177)
+
+## Cálculo da Complexidade Ciclomática
+V(G) = é a complexidade ciclomática. 
+
+E = é o número de arestas.
+
+N = é o número de nós.
+
+P = é o número de componentes conexos.
+
+N = 20 (número de nós)
+
+E = 20 (número de arestas)
+
+P = 1 (número de componentes conexos)
+
+V(G) = 20 - 20 + 2 * 1 = 2
+
+## Caminhos: 
+
+Caminho 1:
+
+1-2-3-4-5-6-8-9-10-11-12-13-14-15-16-17-18-19-20
+
+Caminho 2:
+
+1-2-3-7-6-8-9-10-11-12-13-14-15-16-17-18-19-20
+
